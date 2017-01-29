@@ -23,6 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          
          */
         
+        let v = Vehicle(name: "testVehicle",weight: 200, maxSpeed: 150)
+        print("v=\(v.speed)")
+        v.goFast()
+        print("after goFast v=\(v.speed)")
+        
+        
         // Do not alter
         return true  //
     }   //////////////
